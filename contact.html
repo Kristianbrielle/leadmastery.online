@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="'viewport" content="width=device-width, initial-scale=1.0">
+        <title>LeadMastery</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init("oQy3msQF5b6pM2J95"); // Replace with your EmailJS user ID
+    })();
+</script>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="logo">
+                <a href="index.html"><img src="picture.img/logo1.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Keep Intouch with us.</h1>
+        </section>
+
+<!---- contact ----->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1013076.3084409697!2d124.74729793572844!3d7.3168528962214925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d9f519e327f%3A0xb53a24589f79c573!2sDavao%20City%2C%20Davao%20del%20Sur!5e0!3m2!1sen!2sph!4v1717647233044!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <h1>Turn more leads into sales. Request Pricing.</h1>
+    <p>Book a time with our sales team</p>
+</section>
+<section class="form-section">
+    <div class="form-container">
+        <div class="form-steps">
+            <ul>
+                <li class="active">Tell us about yourself</li>
+                <li>How can we help you</li>
+                <li>Tell us about your company</li>
+                <li>Book a meeting</li>
+            </ul>
+        </div>
+        <div class="form-content">
+            <form id="leadForm" method="POST">
+                <div class="form-group">
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="workEmail">Work email</label>
+                    <input type="email" id="workEmail" name="workEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="workPhone">Work phone</label>
+                    <input type="text" id="workPhone" name="workPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile</label>
+                    <input type="text" id="mobile" name="mobile" required>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+<!---workstation-->
+
+<!-----Footer------>
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <img src="picture.img/logo1.png" alt="The Leadmastery Logo">
+            <p>Founded in 2017, The Leadmastery is an innovative organization with a leadership team boasting over 40 years of combined experience. This seasoned team brings expertise and pioneering spirit to their endeavors.</p>
+        </div>
+        <div class="footer-center">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Learn about us</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/lead-mastery/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p><i class="fas fa-phone"></i>63+9706838040</p>
+            <p><i class="fas fa-envelope"></i> sales@leadmastery.online</p>
+            <p><i class="fas fa-envelope"></i> info@leadmastery.online</p>
+            <p><strong>PHILIPPINES HQ</strong><br>Tugbok District, Davao City, 8000 Davao del Sur</p>
+        </div>
+    </div>
+</footer>
+    </body>
+</html>
